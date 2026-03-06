@@ -42,10 +42,47 @@ namespace CitySimProj
 		
 
 	}
+
+	public enum Religions
+	{
+		Atheist,
+		Christianity,
+		Islam,
+		Judaism
+	}
+
+	public enum Jobs
+	{
+		Unemployed,
+		Police,
+		Firefighter,
+		Doctor,
+		FactoryWorker,
+		Teacher,
+		Engineer,
+		Teacher,
+		Builder,
+		OfficeWorker,
+		Doctor,
+		Nurse,
+		GarbageCollector,
+		Clerk,
+		Waiter,
+		Chef,
+		SecurityGuard,
+		TransportationWorker,
+		Artist,
+		Musician,
+		Cleaner,
+		StreetVendor,
+		Banker,
+		Manager
+	}
+
 	#endregion
 
 	#region Names
-		string[] surnames = { "Smith",
+	public string[] surnames = { "Smith",
 "Johnson",
 "Williams",
 "Brown",
@@ -145,7 +182,7 @@ namespace CitySimProj
 "Ross",
 "Foster",
 "Jimenez", };
-		string[] female_fornames = {"Mary",
+		public string[] female_fornames = {"Mary",
 "Patricia",
 "Jennifer",
 "Linda",
@@ -246,7 +283,7 @@ namespace CitySimProj
 "Lori",
 "Angela",
 "Naomi" };
-		string[] male_fornames = {"James",
+		public string[] male_fornames = {"James",
 "John",
 "Robert",
 "Michael",
@@ -480,4 +517,5 @@ namespace CitySimProj
  };
 
 	#endregion
+
 }
