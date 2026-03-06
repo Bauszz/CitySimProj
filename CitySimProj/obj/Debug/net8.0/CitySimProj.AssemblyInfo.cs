@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CitySimProj")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b809c85b9cfe2713a8eef7a260985db33f25179c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b0b4b19c271dc08d5f6ca3ef1ed3b11074464b4d")]
 [assembly: System.Reflection.AssemblyProductAttribute("CitySimProj")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CitySimProj")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
