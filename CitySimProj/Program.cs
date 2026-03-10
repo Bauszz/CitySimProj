@@ -8,11 +8,12 @@ namespace CitySimProj
 {
     internal class Program
     {
-        new List<Person> People = new List<Person>();
+        static List<Person> People = new List<Person>();
 
         static void Main(string[] args)
         {
-            People.Add(Addperson("Anna", 12, false, Race.White));
+            Person p1 = new Person("Marcccel", 18, true, Race.White);
+            People.Add(p1);
             Console.WriteLine(People[0]);
         }
     }
