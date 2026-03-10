@@ -79,6 +79,16 @@ namespace CitySimProj
 		Manager
 	}
 
+	public enum Race
+	{
+		Black,
+		Asian,
+		White,
+		Latina,
+		Arab,
+		Indiginus
+	}
+
 	#endregion
 
 	#region Names
